@@ -1,0 +1,202 @@
+body {
+  background-color: #EAF6F6;
+}
+button {
+  position: absolute;
+  top: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.star {
+  position: absolute;
+  border : solid black 2px;
+  height:35rem;
+  width: 60rem;
+}
+.line {
+  border: solid black 1px;
+  height: 0;
+  position: absolute;
+}
+.container {
+  position: relative;
+  left: 2rem;
+  border: none;
+  height : 37rem;
+  width: 70rem;
+  border: solid white 2px;
+  padding: 2rem;
+
+}
+.slot {
+  height: 4rem;
+  width: 4rem;
+  background-color: white;
+  border: solid black 0.15rem;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+}
+.bird-container {
+  position: relative;
+  top: 6rem;
+}
+.crow {
+  display: inline-block;
+  background-image: url("images/crow.png");
+  background-repeat: no-repeat;
+  background-size: 3rem 3rem;
+  height: 4rem;
+  width: 4rem;
+  border: none;
+}
+.vulture {
+  display: inline-block;
+  background-image: url("images/vulture.png");
+  background-repeat: no-repeat;
+  background-size: 3.6rem 3.6rem;
+  height: 4rem;
+  width: 4rem;
+  border: none;
+}
+.hold {
+  border: solid #66BFBF 0.15rem;
+}
+.vulture-slot-correction-factor {
+    top: 0.2rem;
+    left: 0.5rem;
+}
+.crow-slot-correction-factor {
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.absP {
+  position: absolute;
+}
+.relP {
+  position: relative;
+}
+.crow1helper {
+
+  top: 5rem;
+}
+.crow2helper {
+  top: 12rem;
+}
+.crow3helper {
+  top: 19rem;
+}
+.crow4helper {
+  top: 26rem;
+}
+.crow5helper {
+  top: 12rem;
+  left: 7rem;
+}
+.crow6helper {
+  top: 19rem;
+  left: 7rem;
+}
+.crow7helper {
+  top: 16rem;
+  left: 14rem;
+}
+.vulture1helper {
+  top: 16rem;
+  left: 65rem;
+}
+
+#game-title{
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  /* text-align: center; */
+  left: 29rem;
+  bottom: 35rem;
+  color: black;
+}
+#line1 {
+  top: 22rem;
+  left: 20rem;
+  width: 26.5rem;
+  transform: rotate(-60deg);
+}
+
+#line2 {
+  top: 22rem;
+  left: 33.2rem;
+  width: 26.5rem;
+  transform: rotate(60deg);
+}
+#line3 {
+  top: 25.2rem;
+  left: 24.3rem;
+  width: 31rem;
+  transform: rotate(32deg);
+}
+#line4 {
+  top: 16.9rem;
+  left: 26.6rem;
+  width: 26.5rem;
+}
+#line5 {
+  top: 25.25rem;
+  left: 24.4rem;
+  width: 31.2rem;
+  transform: rotate(-32deg);
+}
+#slot1 {
+  top: 7.5rem;
+  left: 37.7rem;
+}
+#slot2 {
+  top: 14.5rem;
+  left: 51rem;
+}
+#slot3 {
+  top: 14rem;
+  left: 41.5rem;
+}
+#slot4 {
+  top: 14rem;
+  left: 34rem;
+}
+#slot5 {
+  top: 14.5rem;
+  left: 25rem;
+}
+#slot6 {
+  top: 20rem;
+  left: 31.5rem;
+}
+#slot7 {
+  top: 20rem;
+  left: 44rem;
+}
+#slot8 {
+  top: 30.5rem;
+  left: 50.5rem;
+}
+#slot9 {
+  top: 23rem;
+  left: 38rem;
+}
+#slot10 {
+  top: 30.5rem;
+  left: 25rem;
+}
+#spot11 {
+  top: 40.5rem;
+  left: 25rem;
+}
